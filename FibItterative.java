@@ -10,7 +10,6 @@ public class FibItterative {
         maxNumber = Scanner.nextInt();
 
         for(int i = 1; i <= maxNumber; ++i){
-            //System.out.print(previousNumber + " ");
 
             int sum = previousNumber + nextNumber;
             previousNumber = nextNumber;
